@@ -15,7 +15,7 @@ public class Java9GolbanMihaela {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Aloha!");
+        System.out.println("Tema de acasa!");
     }
     
 }
