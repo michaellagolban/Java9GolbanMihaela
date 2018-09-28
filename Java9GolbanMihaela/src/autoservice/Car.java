@@ -99,7 +99,7 @@ public class Car implements Saleable, Rentable {
     }
 
     /**
-     * /**
+     *
      * The method decrease actual speed of Car until final speed specified.
      *
      * @param newSpeed is new speed
