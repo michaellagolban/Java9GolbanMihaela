@@ -47,7 +47,8 @@ public class TestCalculator {
         
         //Apasam butoane pana apare =
         calculator.alu.calculeaza();
-        System.out.println(calculator.alu.getOperandUnu().toString() + calculator.alu.getOperand().toString() +calculator.alu.getOperandDoi().toString() + calculator.butonEgal.apasa() + calculator.alu.getRezultat());
+        System.out.println(calculator.alu.getOperandUnu().toString() + calculator.alu.getOperand().toString() 
+                +calculator.alu.getOperandDoi().toString() + calculator.butonEgal.apasa() + calculator.alu.getRezultat());
         
         //Afisam rezultatul ..se afiseaza rezultatul automat cand se apasa egal
         
