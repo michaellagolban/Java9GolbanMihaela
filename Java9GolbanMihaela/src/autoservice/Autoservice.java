@@ -20,7 +20,7 @@ public class Autoservice {
         m2.setSpeed((short) 240);
         m2.setRentPrice(250);
         m2.setSalePrice(100000);
-
+        
         Car m3 = new Car();
         m3.setColor(Car.Color.GRAY);
         m3.setName("Logan");
