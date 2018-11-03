@@ -1,7 +1,7 @@
 /*
  * Test de method TriunghiTest 
  */
-package tdd;
+package tddfigures;
 
 import org.junit.Test;
 import static org.junit.Assert.*;

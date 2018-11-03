@@ -1,7 +1,7 @@
 /*
  * Clasa Patrulater Dreptunghic
  */
-package tdd;
+package tddfigures;
 
 /**
  *

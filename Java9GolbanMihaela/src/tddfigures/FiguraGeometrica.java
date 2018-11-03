@@ -1,7 +1,7 @@
 /*
  * Clasa Figura Geometrica
  */
-package tdd;
+package tddfigures;
 
 /**
  *

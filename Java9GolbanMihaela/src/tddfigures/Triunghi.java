@@ -1,7 +1,7 @@
 /*
  * Triunghi
  */
-package tdd;
+package tddfigures;
 
 /**
  *

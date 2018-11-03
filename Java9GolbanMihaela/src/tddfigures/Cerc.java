@@ -1,7 +1,7 @@
 /*
  * Clasa Patrulater
  */
-package tdd;
+package tddfigures;
 
 /**
  *

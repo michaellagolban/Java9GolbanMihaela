@@ -1,7 +1,7 @@
 /*
  * Clasa Dreptunghi
  */
-package tdd;
+package tddfigures;
 
 /**
  *

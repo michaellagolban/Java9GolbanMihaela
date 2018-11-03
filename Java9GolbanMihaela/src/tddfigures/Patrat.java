@@ -1,7 +1,7 @@
 /*
  * Clasa Patrat
  */
-package tdd;
+package tddfigures;
 
 /**
  *

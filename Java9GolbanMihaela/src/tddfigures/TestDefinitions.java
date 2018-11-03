@@ -1,7 +1,7 @@
 /*
  * Test definitions
  */
-package tdd;
+package tddfigures;
 
 import java.util.LinkedList;
 

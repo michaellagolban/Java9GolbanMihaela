@@ -1,7 +1,7 @@
 /*
  * Clasa Plana
  */
-package tdd;
+package tddfigures;
 
 /**
  *

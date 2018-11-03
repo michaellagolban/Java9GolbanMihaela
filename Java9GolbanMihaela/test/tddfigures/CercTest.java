@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tdd;
+package tddfigures;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
@@ -12,19 +12,19 @@ import static org.junit.Assert.*;
  *
  * @author Michaela
  */
-public class DreptunghiTest {
+public class CercTest {
     
-    public DreptunghiTest() {
+    public CercTest() {
     }
 
     /**
-     * Test of getDefinition method, of class Dreptunghi.
+     * Test of getDefinition method, of class Cerc.
      */
     @Test
     public void testGetDefinition() {
         System.out.println("getDefinition");
-        Dreptunghi instance = new Dreptunghi();
-        String expResult = "RECTANGLE: a plane figure with four straight sides and four right angles especially one with unequal adjacent sides, in contrast to a square.";
+        Cerc instance = new Cerc();
+        String expResult = "CIRCLE: a plane figure whose boundary (the circumference) consists of points equidistant from a fixed point (the centre).";
         String result = instance.getDefinition();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
