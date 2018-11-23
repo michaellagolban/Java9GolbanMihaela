@@ -1,7 +1,7 @@
 /*
  * Clasa este un thread paralel care va scadea o unitate la un obiect de tip contor
  */
-package multithreading.contor;
+package multithreading;
 
 /**
  *

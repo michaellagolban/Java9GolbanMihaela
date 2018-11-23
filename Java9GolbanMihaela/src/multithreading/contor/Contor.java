@@ -1,7 +1,7 @@
 /*
  * obiectul partajat de cele 2 threaduri
  */
-package multithreading.contor;
+package multithreading;
 
 /**
  *

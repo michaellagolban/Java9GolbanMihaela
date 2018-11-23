@@ -1,7 +1,7 @@
 /*
  * Testeaza incrementarea si decrementarea unui contor de catre doua threaduri paralele.
  */
-package multithreading;
+package multithreading.contor;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
