@@ -1,25 +1,25 @@
 /*
  * Aritmetical and Logical Unit
  */
-package oopcomputer2;
+package oopcomputervariantapersonala;
 
 /**
  *
  * @author Michaela
  */
-public class Alu {
+public class ALU {
 
-    private Integer operandUnu = 0;
-    private Integer operandDoi = 0;
-    private Character operator = ' ';
-    private Integer rezultat = 0;
+    private Integer operandUnu;
+    private Integer operandDoi;
+    private Character operand;
+    private Integer rezultat;
 
-    public Character getOperator() {
-        return operator;
+    public Character getOperand() {
+        return operand;
     }
 
-    public void setOperator(Character operator) {
-        this.operator = operator;
+    public void setOperand(Character operand) {
+        this.operand = operand;
     }
 
     public Integer getOperandUnu() {
@@ -42,13 +42,13 @@ public class Alu {
         return rezultat;
     }
 
-    public void setRezultat(Integer rezultat) {
-        this.rezultat = rezultat;
+    public void setResultat(Integer resultat) {
+        this.rezultat = resultat;
     }
 
     public void calculeaza() {
 
-        switch (operator) {
+        switch (operand) {
 
             case '+':
                 rezultat = operandUnu + operandDoi;
