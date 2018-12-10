@@ -17,13 +17,15 @@ public class Testmultithreading {
 
 public static void main(String[] args) throws InterruptedException {
         Output output = new Output();
+        Barbatul barbatul = new Barbatul(output);
         Femeia femeia = new Femeia(output);
         Televizor televizor = new Televizor(output);
-        System.out.println("Barbatul face curat prin casa..");
+        barbatul.start();
+        Thread.sleep(2000);
         femeia.start();
         Thread.sleep(2000);
         televizor.start();
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         System.out.println("Barbatul: Auzi! Incepe emisiunea ta preferata! Trezeste-te!");
     }
     
