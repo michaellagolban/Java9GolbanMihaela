@@ -10,7 +10,7 @@ package oopcomputer;
 public class Ecran {
 
     private String afisaj = "0";
-    private Carcasa stapana;
+    private final Carcasa stapana;
     
     public Ecran(Carcasa nouaStapana) {
         this.stapana = nouaStapana;
@@ -51,7 +51,7 @@ public class Ecran {
                     stapana.getAlu().setOperandUnu(afisajInt);
                     System.out.println(afisaj);
                 }
-                else if (0 == operandDoi){
+                else if (0 == operandDoi || ' ' == stapana.getAlu().getOperator()){
                     stapana.getAlu().setOperandDoi(afisajInt);
                     System.out.println(afisaj);
                     
